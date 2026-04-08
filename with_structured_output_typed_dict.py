@@ -36,7 +36,7 @@ Bloatware still exists in One UI
 Expensive compared to competitors""")
 
 print(result)
-print(result["summary"])
-print(result["sentiment"])
-print(result["key_themes"])
-print(result["pros"])
+print(result["summary"]) # type: ignore
+print(result["sentiment"]) # type: ignore
+print(result["key_themes"]) # type: ignore
+print(result["pros"]) # type: ignore
